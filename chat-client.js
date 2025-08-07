@@ -34,13 +34,17 @@ const socket = createConnection({ port: 3000 }, async () => {
             return;
         }
 
-        if (input.startsWith("/w ")) {
+        if (input.startsWith("/w")) {
             const [_, target, ...msgParts] = input.split(" ");
             const msg = msgParts.join(" ");
             socket.write(`__CMD__:WHISPER:${target}:${msg}`);
             return;
         }
 
+        if (input.startsWith("/h")) {
+            socket.write('__CMD__:HISTORY');
+            return;
+        }
         socket.write(`${username}: ${input}`);
     });
 });

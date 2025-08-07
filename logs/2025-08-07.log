@@ -1,0 +1,41 @@
+[2025-08-07T15:28:45.692Z] A user has connected
+[2025-08-07T15:28:45.694Z] Message: __REGISTER__:Luis
+[2025-08-07T16:08:56.850Z] Message: Luis: Hey
+[2025-08-07T16:09:16.595Z] A user has connected
+[2025-08-07T16:09:16.596Z] Message: __REGISTER__:Luis
+[2025-08-07T16:09:22.844Z] Message: Luis: Hey
+[2025-08-07T16:10:55.519Z] A user has connected
+[2025-08-07T16:10:55.521Z] Message: __REGISTER__:luis
+[2025-08-07T16:10:55.536Z] Error: ENOENT: no such file or directory, open 'C:\chat-history\chat-history.txt'
+[2025-08-07T16:12:26.235Z] Socket error: read ECONNRESET
+[2025-08-07T16:12:33.962Z] A user has connected
+[2025-08-07T16:12:33.973Z] Message: __REGISTER__:Luis
+[2025-08-07T16:12:33.974Z] Error: ENOENT: no such file or directory, open 'C:\chat-history\chat-history.txt'
+[2025-08-07T16:14:07.770Z] A user has disconnected
+[2025-08-07T16:14:12.843Z] A user has connected
+[2025-08-07T16:14:12.844Z] Message: __REGISTER__:Luis
+[2025-08-07T16:14:12.845Z] Error: ENOENT: no such file or directory, open 'C:\chat-history\chat-history.txt'
+[2025-08-07T16:14:18.802Z] Message: Luis: hey
+[2025-08-07T16:14:18.804Z] Error: ENOENT: no such file or directory, open 'C:\chat-history\chat-history.txt'
+[2025-08-07T16:15:06.811Z] A user has disconnected
+[2025-08-07T16:15:13.154Z] A user has connected
+[2025-08-07T16:15:13.155Z] Message: __REGISTER__:Luis
+[2025-08-07T16:15:13.156Z] Error: ENOENT: no such file or directory, open 'C:\chat-history\chat-history.txt'
+[2025-08-07T17:41:15.010Z] A user has connected
+[2025-08-07T17:41:15.012Z] Message: __REGISTER__:Luis
+[2025-08-07T17:45:18.392Z] A user has connected
+[2025-08-07T17:45:18.394Z] Message: __REGISTER__:Luis
+[2025-08-07T17:45:52.122Z] Message: Luis: hey
+[2025-08-07T18:08:48.072Z] A user has connected
+[2025-08-07T18:08:48.073Z] Message: __REGISTER__:Luis
+[2025-08-07T18:08:51.468Z] Message: Luis: Hey
+[2025-08-07T21:21:40.468Z] A user has connected
+[2025-08-07T21:21:40.469Z] Message: __REGISTER__:Fern
+[2025-08-07T21:23:10.814Z] A user has disconnected
+[2025-08-07T21:23:19.805Z] A user has connected
+[2025-08-07T21:23:19.806Z] Message: __REGISTER__:Luis
+[2025-08-07T21:24:06.578Z] Message: Fern: Hey Luis, como estas?
+[2025-08-07T21:24:33.724Z] Message: Luis: Todo bien Fernanda, y tu?
+[2025-08-07T21:24:59.986Z] A user has disconnected
+[2025-08-07T21:25:08.013Z] A user has connected
+[2025-08-07T21:25:08.014Z] Message: __REGISTER__:Fern

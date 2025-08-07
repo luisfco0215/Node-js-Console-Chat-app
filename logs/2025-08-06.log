@@ -1,0 +1,16 @@
+[2025-08-06T10:07:08.517Z] A user has connected
+[2025-08-06T10:07:08.518Z] Message: __REGISTER__:Luis
+[2025-08-06T10:07:29.859Z] A user has connected
+[2025-08-06T10:07:29.860Z] Message: __REGISTER__:Fernanda
+[2025-08-06T10:07:45.775Z] Message: Luis: Hola Fernanda como estas?
+[2025-08-06T10:08:04.171Z] Message: Fernanda: Todo bien Luis, y tu como estas?
+[2025-08-06T10:08:16.193Z] Message: __CMD__:LIST
+[2025-08-06T10:08:38.811Z] A user has disconnected
+[2025-08-06T10:55:35.085Z] A user has connected
+[2025-08-06T10:55:35.086Z] Message: __REGISTER__:luis
+[2025-08-06T10:55:55.157Z] Message: luis: cljgg
+[2025-08-06T10:55:58.279Z] Message: luis: cujc;j
+[2025-08-06T10:56:00.568Z] Message: luis: jgcjg
+[2025-08-06T10:56:03.838Z] A user has connected
+[2025-08-06T10:56:03.839Z] Message: __REGISTER__:fern
+[2025-08-06T10:56:15.005Z] Message: __CMD__:HISTORY

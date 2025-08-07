@@ -1,5 +1,6 @@
 import { createServer } from "node:net";
 import chalk from "chalk";
+import sendHistory, { logHistoryMessage, logMessage } from "./chat-history.js"
 
 import logToFile from "./logs.js";
 
@@ -36,6 +37,7 @@ const server = createServer((socket) => {
             const joinMsg = `[SYSTEM]${getTimestamp()} ${username} se ha conectado.`;
             console.log(joinMsg);
             broadcast(joinMsg, socket);
+            readMessagesHistory(joinMsg);
             return;
         }
 
@@ -70,12 +72,18 @@ const server = createServer((socket) => {
                     }
                     break;
                 }
+                case "HISTORY": {
+                    socket.write('Historial reciente:\n');
+                    sendHistory(socket);
+                }
             }
             return;
         }
 
         const fullMessage = `${getTimestamp()} ${message}`;
         broadcast(fullMessage, socket);
+        logMessage(fullMessage);
+        logHistoryMessage(fullMessage);
         process.stdout.write(fullMessage + "\n");
     });
 
